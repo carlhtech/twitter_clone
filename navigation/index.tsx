@@ -23,7 +23,7 @@ import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
 import ModalScreen from "../screens/ModalScreen";
 import NotFoundScreen from "../screens/NotFoundScreen";
-import TabOneScreen from "../screens/TabOneScreen";
+import HomeScreen from "../screens/HomeScreen";
 import TabTwoScreen from "../screens/TabTwoScreen";
 import {
   RootStackParamList,
@@ -91,7 +91,7 @@ function BottomTabNavigator() {
     >
       <BottomTab.Screen
         name="Home"
-        component={TabOneScreen}
+        component={HomeScreen}
         options={({ navigation }: RootTabScreenProps<"Home">) => ({
           headerTitle: () => (
             <Ionicons
@@ -115,8 +115,9 @@ function BottomTabNavigator() {
             //       style={{ marginLeft: 15 }}
             //     />
             //   </Pressable>
+
             <ProfilePicture
-              size={45}
+              size={37}
               image={
                 "https://goldenmeancalipers.com/wp-content/uploads/2011/12/mirror11.jpg"
               }

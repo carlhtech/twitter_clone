@@ -1,4 +1,4 @@
-// 35:22
+// 43:29
 
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";

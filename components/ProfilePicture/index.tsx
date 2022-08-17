@@ -13,6 +13,7 @@ const ProfilePicture = ({ image, size = 50 }: ProfilePictureProps) => (
       width: size,
       height: size,
       borderRadius: size,
+      marginLeft: 15,
     }}
   />
 );
