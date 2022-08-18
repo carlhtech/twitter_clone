@@ -5,7 +5,8 @@ const tweets = [
       id: "u1",
       username: "CarlHarrison",
       name: "Carl Harrison",
-      image: "",
+      image:
+        "https://goldenmeancalipers.com/wp-content/uploads/2011/12/mirror11.jpg",
     },
     createdAt: "2020-08-27T12:00:00.000Z",
     content: "Example content, Lorem ipsum",
