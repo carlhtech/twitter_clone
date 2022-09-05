@@ -28,6 +28,14 @@ const styles = StyleSheet.create({
     lineHeight: 18,
     marginTop: 5,
   },
+  image: {
+    marginVertical: 10,
+    width: "100%",
+    height: 200,
+    resizeMode: "cover",
+    borderRadius: 15,
+    overflow: "hidden",
+  },
 });
 
 export default styles;

@@ -4,6 +4,8 @@ import { TweetType } from "../../../types";
 import styles from "./styles";
 import { Ionicons } from "@expo/vector-icons";
 
+import Footer from "./Footer";
+
 export type MainContainerProps = {
   tweet: TweetType;
 };
@@ -18,8 +20,11 @@ const MainContainer = ({ tweet }: MainContainerProps) => (
     </View>
     <View>
       <Text style={styles.content}>{tweet.content}</Text>
-      {!!tweet.image && <Image source={{ uri: tweet.image }} />}
+      {!!tweet.image && (
+        <Image style={styles.image} source={{ uri: tweet.image }} />
+      )}
     </View>
+    <Footer tweet={tweet} />
   </View>
 );
 
