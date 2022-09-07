@@ -5,8 +5,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     width: "100%",
     padding: 15,
-    borderBottomWidth: 0.5,
-    borderColor: "grey",
+    borderBottomWidth: 0.2,
+    borderColor: "lightgrey",
   },
 });
 
